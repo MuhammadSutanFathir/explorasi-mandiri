@@ -1,0 +1,68 @@
+body {
+    background: url('gambar/weather-hot.jpg');
+    background-size: cover;
+    font-family: 'Fira Code', monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+#app {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.keyword {
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    width: 70%;
+    font-size: 1em;
+}
+
+.btn-search {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(22, 194, 233);
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    font-size: 1em;
+    transition: background-color 0.2s;
+}
+
+.btn-search:hover {
+    background-color: rgb(18, 165, 198);
+}
+
+.btn-search:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgb(22, 194, 233);
+}
+
+#container {
+    margin-top: 20px;
+}
+
+.box {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3), -5px -5px 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
